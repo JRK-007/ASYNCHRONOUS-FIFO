@@ -20,7 +20,7 @@ This repository contains a complete asynchronous FIFO implementation designed to
 - Configurable memory depth and data width
 - Simultaneous read/write capability
 
-#### 2. **2 Flip-Flop Synchronizer**
+#### 2. **Flip-Flop Synchronizer**
 - Gray code pointer synchronization
 - Metastability resolution
 - Cross-clock domain signal transfer
