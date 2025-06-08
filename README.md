@@ -11,8 +11,7 @@ This repository contains a complete asynchronous FIFO implementation designed to
 - ✅ Develop comprehensive verification infrastructure
 - ✅ Create robust testbenches for all critical components
 
-## 🏗️ System Architecture
-
+## 🏗️ SYSTEN ARCHITECTURE :
 ### Core Modules Implemented:
 
 #### 1. **Dual-Port Memory Module**
@@ -71,7 +70,7 @@ This repository contains a complete asynchronous FIFO implementation designed to
 - ✅ Different clock frequency testing
 - ✅ Stress testing with random data patterns
 
-## 🚀 Getting Started
+## 🚀 GETTING STARTED :
 
 ### Prerequisites
 ```bash
@@ -80,7 +79,7 @@ SystemVerilog support (for advanced testbenches)
 Waveform viewer (GTKWave/ModelSim)
 ```
 
-### File Structure
+### FILE STRUCTURE :
 ```
 async-fifo/
 ├── rtl/
@@ -112,7 +111,7 @@ vsim -do "do scripts/run_sync_tb.do"
 vsim -do "do scripts/run_fifo_tb.do"
 ```
 
-## 📈 Verification Results
+## 📈 VERIFICATION RESULTS :
 ### TEST COVERAGE METRICS :
 - **Functional Coverage**: >95%
 - **Code Coverage**: >90%
