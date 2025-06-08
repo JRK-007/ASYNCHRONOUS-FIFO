@@ -1,13 +1,10 @@
-# 🔄 Asynchronous FIFO Design & Verification
-
+# 🔄 ASYNCHRONOUS FIFO DESIGN AND VERIFICATION :
 A comprehensive implementation of Asynchronous First-In-First-Out (FIFO) buffer with complete verification testbenches. This project focuses on cross-clock domain data transfer mechanisms essential for modern digital system design.
 
-## 🎯 Project Overview
-
+## 🎯 PROJECT OVERVIEW :
 This repository contains a complete asynchronous FIFO implementation designed to handle data transfer between different clock domains safely and efficiently. The project emphasizes understanding the fundamental principles of asynchronous design and provides robust verification methodologies.
 
-## 📋 Week 1 Milestone Objectives
-
+## 📋 WEEK 1 MILESTONE OBJECTIVES :
 **Milestone 1: Core Foundation Development**
 - ✅ Gain strong understanding of asynchronous FIFO principles
 - ✅ Implement essential core modules
@@ -36,8 +33,7 @@ This repository contains a complete asynchronous FIFO implementation designed to
 - Full/Empty flag generation
 - Gray code conversion for safe pointer synchronization
 
-## 🔧 Key Features
-
+## 🔧KEY FEATURES :
 - **Asynchronous Operation**: Independent read and write clock domains
 - **Metastability Safe**: 2-FF synchronizers prevent metastable states
 - **Gray Code Pointers**: Ensures only one bit changes at clock boundary
@@ -45,8 +41,7 @@ This repository contains a complete asynchronous FIFO implementation designed to
 - **Status Flags**: Full, Empty, Almost Full, Almost Empty indicators
 - **Comprehensive Verification**: Extensive testbench coverage
 
-## 📊 Design Specifications
-
+## 📊 DESIGN SPECIFICATIONS :
 | Parameter | Value | Description |
 |-----------|-------|-------------|
 | Data Width | 8/16/32 bits | Configurable data bus width |
@@ -55,10 +50,9 @@ This repository contains a complete asynchronous FIFO implementation designed to
 | Write Clock | Independent | Asynchronous write clock domain |
 | Synchronizer | 2-FF | Dual flip-flop synchronizer |
 
-## 🧪 Verification Strategy
+## 🧪 VERIFICATION STRATEGY :
 
 ### Testbench Components:
-
 #### 1. **Memory Read/Write Operations**
 - ✅ Basic read/write functionality
 - ✅ Data integrity verification
@@ -109,10 +103,8 @@ async-fifo/
 # Clone the repository
 git clone https://github.com/yourusername/async-fifo-design.git
 cd async-fifo-design
-
 # Run memory testbench
 vsim -do "do scripts/run_mem_tb.do"
-
 # Run synchronizer testbench
 vsim -do "do scripts/run_sync_tb.do"
 
@@ -121,28 +113,25 @@ vsim -do "do scripts/run_fifo_tb.do"
 ```
 
 ## 📈 Verification Results
-
-### Test Coverage Metrics:
+### TEST COVERAGE METRICS :
 - **Functional Coverage**: >95%
 - **Code Coverage**: >90%
 - **Assertion Coverage**: >85%
 - **Corner Case Testing**: Complete
 
-### Key Verification Points:
+### KEY VERIFICATION POINTS :
 - ✅ No data loss/corruption
 - ✅ Proper full/empty flag behavior
 - ✅ Metastability-free operation
 - ✅ Clock domain crossing safety
 
-## 🔍 Design Challenges Addressed
-
+## 🔍 DESIGN CHALLENGES ADDRESSED :
 1. **Metastability Prevention**: 2-FF synchronizers eliminate metastable states
 2. **Pointer Synchronization**: Gray code ensures safe cross-domain transfer
 3. **Flag Generation**: Reliable full/empty detection across clock domains
 4. **Performance Optimization**: Minimal latency while maintaining safety
 
-## 📚 Learning Outcomes
-
+## 📚 LEARNING OUTCOMES :
 Through this project, you will gain expertise in:
 - Asynchronous FIFO design principles
 - Clock domain crossing (CDC) techniques
@@ -151,25 +140,22 @@ Through this project, you will gain expertise in:
 - Comprehensive verification methodologies
 - SystemVerilog testbench development
 
-## 🛠️ Technology Stack
-
+## 🛠️ TECH STACK :
 - **HDL**: Verilog/SystemVerilog
 - **Simulation**: ModelSim/QuestaSim
 - **Synthesis**: Design Compiler/Vivado (optional)
 - **Version Control**: Git
 - **Documentation**: Markdown
 
-## 📋 Project Timeline
-
-**Week 1 Deliverables:**
+## 📋 PROJECT TIMELINE :
+**WEEK 1 DELIVERABLES :**
 - [x] Dual-port memory module implementation
 - [x] 2-FF synchronizer design
 - [x] Basic testbenches for core components
 - [x] Initial verification results
 - [ ] Documentation and code review
 
-## 🤝 Contributing
-
+## 🤝 CONTRIBUTING :
 Contributions are welcome! Please follow these guidelines:
 1. Fork the repository
 2. Create a feature branch
@@ -177,26 +163,27 @@ Contributions are welcome! Please follow these guidelines:
 4. Ensure all existing tests pass
 5. Submit a pull request with detailed description
 
-## 📞 Contact
-
+## 📞CONTACT :
 For questions, collaboration, or technical discussions:
-
-📧 **Email**: [tomyblog007@gmail.com]  
-🐙 **GitHub**: [[@JRK-007](https://github.com/JRK-007)]  
-💼 **LinkedIn**: [[LinkedIn Profile](https://www.linkedin.com/in/rahul-krishna-j/)]  
+📧 **E-MAIL**: [tomyblog007@gmail.com]  
+🐙 **GIT-HUB**: [[@JRK-007](https://github.com/JRK-007)]  
+💼 **LINKDE-IN**: [[LinkedIn Profile](https://www.linkedin.com/in/rahul-krishna-j/)]  
 
 Feel free to open GitHub issues for bug reports, feature requests, or technical questions about FIFO design.
 
-## 📝 License
+## 📝 LICENSE :
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 🙏 Acknowledgments
+## 🙏ACKNOWLEDGEMENT :
 
 - **Course**:Assignment By ISTE
 - **Focus**: Asynchronous FIFO Design & Verification Bootcamp
 - Digital design best practices and industry standards
 - CDC (Clock Domain Crossing) design guidelines
 - Verification methodology references
+
+  ## 📢 ISTE ANNOUNCEMENT LINK :
+[(https://www.canva.com/design/DAGpv_6gW6w/BfsLL2LBrv5RpVhrWvgRrg/edit?utm_content=DAGpv_6gW6w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)]
 ---
 *Building robust asynchronous systems, one clock domain at a time* ⏰🔄
