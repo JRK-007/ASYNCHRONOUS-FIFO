@@ -1,0 +1,17 @@
+# Vivado generated folders
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.xpr
+.xpr.cache/
+.Xil/
+webtalk/
+*.log
+*.jou
+*.str
+*.html
+*.tmp
+*.backup
+*.wdb
+*.xml
